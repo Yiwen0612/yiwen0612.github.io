@@ -5,26 +5,33 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Junior Software Developer",
+    cardImage: "assets/images/experience-page/1password.jpg",
+    place: "1Password",
+    time: "(Jan - Apr, 2022)",
+    desp: "<li>Maintained password management platform using Go, React and Typescript</li><li>Designed test function on RESTful API using Jest and tested on backend workflow using Selenium</li><li>Built helper tool to generate user readable documentation based on project features using Go AST and Go Parse</li><li>reated telemetry API end point to log request into ElasticSearch and query on the URL to collect data usage from project main page</li><li>Tracked and reported log errors/warnings integrated with Bugsnag</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Full Stack Software Developer",
+    cardImage: "assets/images/experience-page/uwaterloo.png",
+    place: "University of Waterloo",
+    time: "(Jan - Apr, 2021)",
+    desp: "<li>Maintained Ta Application System using ASP.NET Core and AngularJS to optimize the rank and match experience for both students and recruiters</li><li>Refactored .NET API in C# to improve code reusability, combining multiple endpoints with similar functionality and created generic methods</li><li>Embellished loading wrapper page by creating functional AngularJS directive which allows developers implement it quickly and easily</li><li>Built stored procedures and triggers with MS SQL Server to automatically archive and retire records which speeded up query execution</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Software Developer",
+    cardImage: "assets/images/experience-page/edisoft.png",
+    place: "Edisoft Inc",
+    time: "(Sep - Dec, 2020 & Jan - Apr, 2020)",
+    desp: "<li>Built website interfaces to achieve automated order management/fulfillment process and improve user experience using jQWidgets, Razor and JavaScript</li><li>Designed and created RESTful API endpoints in .NET application to allow users to create, retrieve, update and delete (CRUD) application information based on varied object model</li><li>Developed partials to import and export data from server into xlsx/csv files depended on customize filters utilizing LINQ in C#</li><li>Created connectors between eCommerce order management system and ERPs (Enterprise Resource Planning) by organizing shipments through Accellos Warehouse Management System</li><li>Re-designed asynchronous user interfaces with Ajax to achieve sending and retrieving JSON data string between front-end and back-end</li>",
   },
+  {
+      title: "Database Developer Internship",
+      cardImage: "assets/images/experience-page/shenzhen.jpg",
+      place: "Shenzhen Sci-Tech Company",
+      time: "(June - July, 2019)",
+      desp: "<li>Achieved daily cutoff-start and cutoff-end, balance inquiry, commodity trading, funds transferring and staff security management to allow users operate store automatically and efficiently by using SQL</li><li>Designed merchant category code for item list database to maintain an organized stock</li>",
+    },
 ];
 
 const showCards2 = () => {
@@ -86,6 +93,7 @@ const volunteershipcards = [
       "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
   },
 ];
+
 
 const showCards = () => {
   let output = "";
